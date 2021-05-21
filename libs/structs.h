@@ -15,12 +15,3 @@ typedef struct cell {
     double g;
     double h;
 } Cell;
-
-Pair makePair(int a, int b) {
-    Pair newPair;
-
-    newPair.a = a;
-    newPair.b = b;
-
-    return newPair;
-}
