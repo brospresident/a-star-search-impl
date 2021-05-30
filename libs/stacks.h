@@ -41,8 +41,7 @@ void push(Stack* stack, Pair data) {
         return;
     }
 
-    stack->data[stack->occupied + 1] = data;
-    stack->occupied++;
+    stack->data[++stack->occupied] = data;
 }
 
 Pair pop(Stack* stack) {
